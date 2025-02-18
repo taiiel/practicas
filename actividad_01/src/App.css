@@ -1,0 +1,24 @@
+.blue {
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  color: white
+}
+
+.red {
+  background-color: red;
+  width: 100%;
+  text-align: center;
+}
+
+.buttons {
+  margin: 10px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
