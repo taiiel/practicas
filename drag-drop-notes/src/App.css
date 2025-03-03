@@ -1,0 +1,75 @@
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+fieldset {
+  margin: 0;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+fieldset button {
+  margin: 0;
+  width: 100%;
+}
+
+article h2 {
+  text-align: center;
+}
+
+.articleTask {
+  text-justify: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* esto es para que se haga el texto para abajo cuando hay desborde */
+  word-wrap: break-word;
+  width: 300px;
+}
+
+.task {
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid red;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task:active {
+  cursor: grabbing; /* Cambia el cursor durante el arrastre */
+}
+
+.task footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+}
+
+.task footer button {
+  height: max-content;
+  margin-bottom: 5px;
+}
